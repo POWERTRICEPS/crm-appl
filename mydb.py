@@ -10,7 +10,6 @@ dataBase = mysql.connector.connect(
 
 # prepare a cursor object
 cursorObject = dataBase.cursor()
-
 cursorObject.execute("CREATE DATABASE ELDERCO")
 
 print("Done")
